@@ -73,8 +73,13 @@ npm run dev
     "minifySvg": false
 }
 
------------------------------------------------
+--------------------------------------------
+Netlify:
 npm run build
+dist
+
+[NOT - parcel build index.html]
+
 
 
 
