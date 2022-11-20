@@ -24,6 +24,7 @@
 		<link rel="stylesheet" href="/css/styles.css" >
 	</head>
 	<body>
+		<!-- ################################################# -->
 		<header class="container">
 			<nav class="nav collapsible">
 				<a class="anchor" href="#"
@@ -32,8 +33,15 @@
 				<img class="menu nav__toggler" src="/icons/menu.svg" alt="" >
 				<ul class="list nav_list collapsible__content">
 					<li class="nav_list_item"><a href="/">Home</a></li>
+					<li class="nav_list_item">
+						<a href="/content/content.html">Content</a>
+					</li>
+					<li class="nav_list_item"><a href="/about.html">About</a></li>
+					<li class="nav_list_item"><a href="/contact.html">Contact</a></li>
 				</ul>
 			</nav>
+		</header>
+		<!-- ################################################# -->
 		</header>
 		<section class="container">
 			<div class="hero">
@@ -41,7 +49,7 @@
 				<p class="hero-text">
 					Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat, modi.
 				</p>
-				<video class="hero-video" src="/videos/Skull.m4v" autoplay loop muted></video>
+				<video class="hero-video" src="/videos/Hero.m4v" autoplay loop muted></video>
 			</div>
 		</section>
 		<!-- ################################################# -->
@@ -104,9 +112,12 @@
 			
 		</section>
 		<!-- ################################################# -->
-		<footer class="container footer">
-			<a class="anchor" href="#"><img class="logo" src="/icons/logo.svg" alt=""></a>
+		<footer class="container footer footer--with-buttons">
+			<div class="footer-item"><a class="footer-anchor" href="/index.html"><img class="goto_button" src="/icons/previous.svg" alt=""></a></div>
+			<div class="footer-item footer-logo"><a class="footer-anchor" href="#"><img class="logo" src="/icons/logo.svg" alt=""></a></div>
+			<div class="footer-item"><a class="footer-anchor" href="/about.html"><img class="goto_button" src="/icons/next.svg" alt=""></a></div>
 		</footer>
+		<!-- ################################################# -->
 		<script src="/js/main.js"></script>
 	</body>
 </html>

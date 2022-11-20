@@ -514,6 +514,10 @@ p {
 	height: 20px;
 }
 
+.goto_button--none {
+	display: none;
+}
+
 /* --------------------------------------- */
 /* Page Top Button */
 .home {
@@ -541,4 +545,56 @@ p {
 	.home {
 		right: calc(50vw - 570px + 1rem);
 	}
+}
+
+/* --------------------------------------- */
+/* Slide Show */
+
+.slide_show {
+	display: flex;
+	flex-direction: column;
+	margin: 0.2rem 0rem;
+	background-color: var(--color-background-nav);
+	color: var(--color-white);
+	padding: 3rem 0;
+}
+
+.slide_show-heading {
+	font-size: 3rem;
+	font-weight: 600;
+	align-self: center;
+	margin: 0;
+	color: var(--color-white);
+	opacity: 0.9;
+}
+
+.slide_show-text{
+	font-size: 2rem;
+	font-weight: normal;
+	padding: 0.5rem 2rem;
+	margin: 0;
+}
+
+.image-container--slide_show {
+	margin: 0 auto 3rem;
+}
+
+.slide {
+	margin-bottom: 1rem;
+}
+
+.slide-heading {
+	font-size: 2.5rem;
+	font-weight: 500;
+	/* align-self: left; */
+	margin: 0;
+	padding: 2rem 0 0 10vw;
+	/* text-decoration: underline; */
+}
+
+.slide-text{
+	font-size: 2rem;
+	font-weight: normal;
+	padding: 0.3rem 0 0 5vw;
+	margin: 0;
 }
